@@ -1,0 +1,70 @@
+body {
+  background-image: url(../img/bg-light-4868.png);
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+.menu {
+  width: 890px;
+  height: 100px;
+  margin-top: 25px;
+  float: right;
+}
+.menu .MenuItems {
+  display: flex;
+}
+.menu .MenuItems li {
+  list-style: none;
+}
+.menu .MenuItems li a {
+  display: block;
+  padding: 15px 35px 15px 35px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+  margin-right: -5px;
+  background: rgb(158, 196, 240);
+}
+.menu .MenuItems li a:hover {
+  background: #21221e;
+  color: white;
+  transition: 0.3s ease;
+}
+.DropdownMenu {
+  display: none;
+  position: absolute;
+  padding: 0;
+  background: rgb(158, 196, 240);
+}
+li:hover .DropdownMenu {
+  display: block;
+}
+.main h1 {
+  text-align: center;
+  margin-top: 130px;
+}
+.main .list {
+  margin-left: 17%;
+}
+.main .list2 {
+  margin-left: 17%;
+}
+.main p {
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.7em;
+}
+.footer {
+  height: 60px;
+  width: 100%;
+  background: rgb(158, 196, 240);
+  text-align: center;
+  padding-top: 35px;
+}
+.main .news {
+  margin-top: 70px;
+}
