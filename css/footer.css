@@ -1,7 +1,23 @@
 .footer {
   height: 60px;
-  width: 100%;
+  width: 99.9%;
   background: rgb(158, 196, 240);
   text-align: center;
-  padding-top: 35px;
+  padding-top: 25px;
+  border: 0.7px solid black;
+}
+.text-typing
+{
+    color: black;
+    white-space:nowrap;
+    animation: type 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes type{
+    from {
+      width: 30px;
+    }
+    to {
+      width: 83em;
+    }
 }

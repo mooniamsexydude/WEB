@@ -21,7 +21,8 @@ header {
   color: black;
   transition: 0.6s ease;
   margin-right: -5px;
-  background: rgb(158, 196, 240);
+  background: #9ec4f0;
+  border: 2.2px solid black;
 }
 .menu .MenuItems li a:hover {
   background: #21221e;
